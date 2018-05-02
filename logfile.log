@@ -1,0 +1,32 @@
+2018-04-17 18:22:43,642 INFO:Traceback (most recent call last):
+  File "exportscript.py", line 223, in <module>
+  File "exportscript.py", line 59, in getProperties
+IndexError: list index out of range
+
+2018-04-17 18:24:08,548 INFO:Traceback (most recent call last):
+  File "exportscript.py", line 223, in <module>
+  File "exportscript.py", line 59, in getProperties
+IndexError: list index out of range
+
+2018-04-17 18:24:53,451 INFO:Traceback (most recent call last):
+  File "exportscript.py", line 223, in <module>
+  File "exportscript.py", line 59, in getProperties
+IndexError: list index out of range
+
+2018-04-17 18:27:21,954 INFO:Traceback (most recent call last):
+  File "exportscript.py", line 225, in <module>
+  File "exportscript.py", line 60, in getProperties
+IndexError: list index out of range
+
+2018-04-17 18:28:59,081 DEBUG:Starting new HTTPS connection (1): expense.zoho.com
+2018-04-17 18:29:00,425 DEBUG:https://expense.zoho.com:443 "GET /api/v1/organizations?organization_id=651173113&authtoken=40bbe6d1a6de3b4887ea884ec316e23e HTTP/1.1" 200 None
+2018-04-17 18:29:05,282 INFO:Property file path/Users/sam-pt2078/properties.txt
+2018-04-17 18:29:05,285 DEBUG:Starting new HTTPS connection (1): expense.zoho.com
+2018-04-17 18:29:07,022 DEBUG:https://expense.zoho.com:443 "GET /api/v1/expensereports?authtoken=40bbe6d1a6de3b4887ea884ec316e23e&type=approval&status=approved&formatneeded=True HTTP/1.1" 200 None
+2018-04-17 18:29:07,289 DEBUG:Starting new HTTPS connection (1): expense.zoho.com
+2018-04-17 18:29:08,621 DEBUG:https://expense.zoho.com:443 "GET /api/v1/expensereports?authtoken=40bbe6d1a6de3b4887ea884ec316e23e&type=approval&status=approved&formatneeded=True&report_number_contains=ER-06101 HTTP/1.1" 200 None
+2018-04-17 18:29:08,626 INFO:exportUrl:https://expense.zoho.com/api/v1/expensereports/879672000001910123/approvalhistory
+2018-04-17 18:29:08,628 DEBUG:Starting new HTTPS connection (1): expense.zoho.com
+2018-04-17 18:29:10,115 DEBUG:https://expense.zoho.com:443 "GET /api/v1/expensereports/879672000001910123/approvalhistory?authtoken=40bbe6d1a6de3b4887ea884ec316e23e&type=approval&status=approved&formatneeded=True&report_number_contains=ER-06101 HTTP/1.1" 200 None
+2018-04-17 18:29:10,120 INFO:export file save path:/Users/sam-pt2078/Documents/sample_export/ER-06101.xlsx
+2018-04-17 18:29:10,124 INFO:export ER-06101 completed successfully
